@@ -6,4 +6,22 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\animation.png" />
+    <None Remove="Images\checked.png" />
+    <None Remove="Images\fan.png" />
+    <None Remove="Images\fuji.png" />
+    <None Remove="Images\holy-gate.png" />
+    <None Remove="Images\kitsune.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\animation.png" />
+    <Resource Include="Images\checked.png" />
+    <Resource Include="Images\fan.png" />
+    <Resource Include="Images\fuji.png" />
+    <Resource Include="Images\holy-gate.png" />
+    <Resource Include="Images\kitsune.png" />
+  </ItemGroup>
+
 </Project>

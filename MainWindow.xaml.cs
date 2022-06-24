@@ -24,5 +24,14 @@ namespace demo_UDQL2
         {
             InitializeComponent();
         }
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            int sum = 0;
+            for(int i = 1; i <= 10; i++)
+            {
+                sum += i;
+            }
+            this.Title = sum.ToString();
+        }
     }
 }
